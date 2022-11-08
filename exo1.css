@@ -1,0 +1,25 @@
+main {
+  background-color: #3c78d8;
+  height: 600px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  main {
+    background-color: #6aa84f;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main {
+    background-color: #ffff00;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    background-color: #ff0000;
+    height: 100px;
+  }
+}
